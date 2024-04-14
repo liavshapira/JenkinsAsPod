@@ -46,6 +46,6 @@ mkdir /PlayGround/JenkinsAsPod/LiavApp1
 # - Deploy: Deploy website to target environment: K8S pod in NS "websitens".
 # - Cleanup: Clean up any temporary files or artifacts.
 
-# Agent Configuration: Specify the agent (either Docker, Kubernetes, or Jenkins agent) where your pipeline will run.
+# Agent Configuration: Specify the agent (either Docker, Kubernetes, or Jenkins agent) where pipeline will run.
 
 
