@@ -11,6 +11,12 @@ create a Jenkins pipeline type process that uses the created Jenkins,
 which builds a specific web application in NS, based on .netCore
 and then deploys and uploads it as a website on another NS.
 
+# Work flow:
+- Create the Jenkins service by running the commands from "CreationFiles/phase1_setup_jenkins.sh"
+  (Please note not all of the actions are via cmd line. T.B.D later)
+  There are also cmds to delete the environment.
+- Work accourding to instructions in "CreationFiles/
+
 # Work Assumptions:
 - The flow described in this repo was tested on: ubuntu ; microk8s 
 - Jenkins is persistent and its' file resides on /PlayGround/JenkinsAsPod/DataFiles (see the k8s yaml files)
