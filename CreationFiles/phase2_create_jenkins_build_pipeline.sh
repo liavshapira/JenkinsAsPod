@@ -32,4 +32,20 @@ mkdir /PlayGround/JenkinsAsPod/LiavApp1
 # TO DO (In General): #
 #######################
 
+# Main actions left to complete this task:
+
+# Create the jenkins file:
+
+# Define Stages: 
+
+# - Checkout: Check out my code from Git (Maybe I'll do everythin inside GitHus?).
+# - Build: Build my .NET Core app (use MSBuild or dotnet CLI?)
+# - Test: use curl for testing it (just to see the hello world).
+# - Package: Package my app. (use Gitlab artifatcs / Nexus / GitHub ?)
+# - Deploy: Deploy app to the target environment: K8S pod in NS "staging".
+# - Deploy: Deploy website to target environment: K8S pod in NS "websitens".
+# - Cleanup: Clean up any temporary files or artifacts.
+
+# Agent Configuration: Specify the agent (either Docker, Kubernetes, or Jenkins agent) where your pipeline will run.
+
 
